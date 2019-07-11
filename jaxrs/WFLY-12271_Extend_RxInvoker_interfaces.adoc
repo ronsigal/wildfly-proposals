@@ -1,4 +1,4 @@
-= WFLY-12271 / EAP7-9999 Extend RxInvoker interfaces to return Response objects
+= WFLY-12271 Extend RxInvoker interfaces to return Response objects
 :author:            Ron Sigal
 :email:             rsigal@redhat.com
 :toc:               left
@@ -10,7 +10,7 @@
 
 == Overview
 
-Currently, FlowableRxInvokerImpl, ObservableRxInvokerImpl, and SingleRxInvokerImpl
+Currently, FlowableRxInvokerImpl and ObservableRxInvokerImpl
 in package org.jboss.resteasy.rxjava2 in RESTEasy module resteasy-rxjava2
 (see https://github.com/resteasy/Resteasy/tree/master/resteasy-rxjava2)
 implement the javax.ws.rs.client.RxInvoker interface
@@ -80,7 +80,7 @@ public interface RxInvokerExt
 
 === Issue:
 
-* {issue-base-url}/EAP7-??? [I can't create an EAP7 issue for some reason]
+* {issue-base-url}/EAP7-1313 [EAP7-1313]
 * {issue-base-url}/WFLY-12271[WFLY-12271]
 
 === Related Issues:
